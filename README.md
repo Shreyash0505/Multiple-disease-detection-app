@@ -1,1 +1,1 @@
-# Multiples-disease-detection-app
+# Multiple-disease-detection-app
