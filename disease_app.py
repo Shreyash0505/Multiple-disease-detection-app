@@ -158,6 +158,10 @@ if (selected == 'Heart Disease Prediction'):
         
         if (heart_prediction[0] == 1):
           heart_diagnosis = 'The person is having heart disease'
+        
+        if st.button('Clear Result'):
+          heart_diagnosis = ''
+        
         else:
           heart_diagnosis = 'The person does not have any heart disease'
     else:
