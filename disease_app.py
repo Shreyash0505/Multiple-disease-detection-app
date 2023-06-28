@@ -80,9 +80,9 @@ if (selected == 'Diabetes Prediction'):
             diab_prediction = diabetes_model.predict([[Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]])
 
             if (diab_prediction[0] == 1):
-            diab_diagnosis = 'The person is diabetic'
+                diab_diagnosis = 'The person is diabetic'
             else:
-            diab_diagnosis = 'The person is not diabetic'
+                diab_diagnosis = 'The person is not diabetic'
     else:
         st.error('Please fill all the details')
     
