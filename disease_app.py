@@ -85,12 +85,11 @@ if (selected == 'Diabetes Prediction'):
     
     if st.button('Clear Result'):
         diab_diagnosis = ''
+
+
+    st.success(heart_diagnosis)
         
     
-
-
-
-
 # Heart Disease Prediction Page
 if (selected == 'Heart Disease Prediction'):
     
@@ -166,8 +165,6 @@ if (selected == 'Heart Disease Prediction'):
 
     if st.button('Clear Result'):
           heart_diagnosis = ''
-    
-
         
     st.success(heart_diagnosis)
         
@@ -257,10 +254,8 @@ if (selected == "Parkinsons Prediction"):
     """, unsafe_allow_html=True)
         
     
-    
     # code for Prediction
     parkinsons_diagnosis = ''
-    
     
     
     # creating a button for Prediction    
