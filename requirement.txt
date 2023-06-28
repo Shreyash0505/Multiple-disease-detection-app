@@ -2,5 +2,5 @@ numpy
 pandas
 scikit-learn
 streamlit
-streamlit-option-menu
+pip install streamlit-option-menu
 pickle5
