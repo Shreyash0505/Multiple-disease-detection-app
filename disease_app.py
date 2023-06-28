@@ -87,7 +87,7 @@ if (selected == 'Diabetes Prediction'):
         diab_diagnosis = ''
 
 
-    st.success(diabetes_prediction)
+    st.success(diab_diagnosis)
         
     
 # Heart Disease Prediction Page
