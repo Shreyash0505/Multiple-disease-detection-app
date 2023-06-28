@@ -167,8 +167,7 @@ if (selected == 'Heart Disease Prediction'):
     else:
         st.error('Please fill all the details ')
     
-    if st.button('Clear Result'):
-        heart_diagnosis = ''
+
         
     st.success(heart_diagnosis)
         
