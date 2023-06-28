@@ -86,7 +86,7 @@ if (selected == 'Diabetes Prediction'):
     if st.button('Clear Result'):
         diab_diagnosis = ''
         
-    st.success(diab_diagnosis)
+    
 
 
 
