@@ -36,7 +36,7 @@ with st.sidebar:
 if (selected == 'Diabetes Prediction'):
     
     # page title
-    st.markdown("<h1 style='text-align: center; color: grey;'>Diabetes Prediction using ML</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: black;'>Diabetes Prediction using ML</h1>", unsafe_allow_html=True)
     
     
     # getting the input data from the user
@@ -95,7 +95,7 @@ if (selected == 'Heart Disease Prediction'):
     
     
     # page title
-    st.title('Heart Disease Prediction using ML')
+    st.markdown("<h1 style='text-align: center; color: black;'>Heart Disease Prediction using ML</h1>", unsafe_allow_html=True)
     
     col1, col2, col3 = st.columns(3)
     
@@ -175,7 +175,7 @@ if (selected == 'Heart Disease Prediction'):
 if (selected == "Parkinsons Prediction"):
     
     # page title
-    st.title("Parkinson's Disease Prediction using ML")
+     st.markdown("<h1 style='text-align: center; color: black;'>Parkinson's Disease Prediction using ML</h1>", unsafe_allow_html=True)
     
     col1, col2, col3, col4, col5 = st.columns(5)  
     
