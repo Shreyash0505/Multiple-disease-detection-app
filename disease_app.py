@@ -31,7 +31,7 @@ with st.sidebar:
 if (selected == 'Diabetes Prediction'):
     
     # page title
-    st.markdown("<h1 style='text-align: center; color: black;'>Diabetes Prediction using ML</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: white;'>Diabetes Prediction using ML</h1>", unsafe_allow_html=True)
     
     
     # getting the input data from the user
