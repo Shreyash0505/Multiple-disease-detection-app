@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun May 22 11:53:51 2022
-
-@author: siddhardhan
-"""
 
 import pickle
 import streamlit as st
@@ -175,7 +170,7 @@ if (selected == 'Heart Disease Prediction'):
 if (selected == "Parkinsons Prediction"):
     
     # page title
-     st.markdown("<h1 style='text-align: center; color: black;'>Parkinson's Disease Prediction using ML</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: black;'>Parkinson's Disease Prediction using ML</h1>", unsafe_allow_html=True)
     
     col1, col2, col3, col4, col5 = st.columns(5)  
     
